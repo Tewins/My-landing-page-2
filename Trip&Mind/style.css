@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-image: url(images/headear/Back.png);
+    background-repeat: no-repeat;   
+}
+
+.header__body{
+    padding: 20px 120px;
+
+}
+
+.header__row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 145px 0px;
+}
+
+.header__column{
+    flex: 0 0 33.333%;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.header__burgermenu{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+.header__item{
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.title{
+    max-width: 830px;
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 95px; /* 135.714% */
+    margin: 0px 0px 50px 0px;
+}
+
+.subtitle{
+    max-width: 443px;
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; /* 180% */
+    margin: 0px 0px 70px 0px;
+}
+
+.main-sub{
+    display: flex;
+    gap: 60px;
+}
+
+.but{
+    text-align: center;
+    padding: 26px;
+    width: 335px;
+    flex-shrink: 0;
+    border-radius: 38px;
+    background: #DD9428;
+    color: #311;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.img{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.play{
+    max-width: 104px;
+    color: #A1A8B6;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+}
+
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 0 0 45%;
+}
+
+.header__text{
+    margin: 120px 0px 24px 0px;
+    max-width: 209px;
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+
+.soshialmedia{
+    display: flex;
+    gap: 46px;
+}
+
+.country{
+    display: flex;
+    gap: 30px;
+}
+
+.about{
+    background-color: #FFF;
+    margin: 160px 260px;
+}
+
+.about__row{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.about__column{
+    flex: 0 0 45%;
+}
+
+.im{
+    margin: 0px 100px 0px 0px;
+}
+
+.about__title{
+    margin: 0px 0px 30px 0px;
+    max-width: 450px;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px; /* 130.952% */
+}
+
+.about__subtitle{
+    max-width: 401px;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 183.333% */
+    margin: 0px 0px 50px 0px;
+}
+
+.about__buttitle{
+    text-align: center;
+    padding: 18px;
+    width: 275px;
+    flex-shrink: 0;
+    border-radius: 38px;
+    background: #FFF;
+    color: #DD9428;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 38px;
+    border: 2px solid #DD9428;
+}
+
+.about-img{
+    height: 518px;
+    background-image: url(images/imgForm\ 1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-img__row{
+    display: flex;
+    margin: 0px 0px 0px 835px;
+}
+
+.about-img__column{
+    margin: 0px 84px 0px 0px;
+    
+}
+
+.about-img__but{
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+    padding: 18px;
+    width: 275px;
+    flex-shrink: 0;
+    border-radius: 38px;
+    background: #FFF;
+    color: #B7C3CC;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 38px;
+    border: 2px solid #B7C3CC;
+}
+
+.about-img__but1{
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+    padding: 18px;
+    width: 275px;
+    flex-shrink: 0;
+    border-radius: 38px;
+    background: #DD9428;
+    color: #311;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+.about-img__subbut1{
+    max-width: 215px;
+    color: #000;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 163.636% */
+}
+
+.about-img__title{
+    margin: 0px 0px 30px 0px;
+    max-width: 403px;
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px; /* 130.952% */
+}
+
+.about-img__subtitle{
+    max-width: 0px 0px 134px 0px;
+    max-width: 202px;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 183.333% */
+}
+
+.footter{
+    padding: 40px 40px;
+    background: #e1e1e1;
+}
+
+.footter__row{
+    display: flex;
+    align-items: center;
+}
+.footter__column{
+    display: flex;
+    align-items: center;
+    gap: 123px;
+    flex: 0 0 83.333%
+}
+
+.footter__title{
+    max-width: 163px;
+    color: #90A4B2;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+}
+
+.footter__subtitle{
+    max-width: 195px;
+    color: #90A4B2;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+}
+
+.footter-logo{
+    margin: 0px 0px 0px 120px;
+}
